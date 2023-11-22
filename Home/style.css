@@ -1,6 +1,4 @@
-:root {
-  --grenn: #01ffcc;
-}
+
 html {
   font-size: 62.5%;
   scroll-padding-top: 7rem;
@@ -14,29 +12,34 @@ html {
   box-sizing: border-box;
   text-decoration: none;
 }
+
+
+/* Header */
+
 .header {
-  padding: 2rem 9%;
+  padding: 1rem 9%;
   z-index: 1000;
   top: 0;
   left: 0;
   right: 0;
-  box-shadow: 0 0.5rem 1.5rem var(--grenn);
+  box-shadow: 0 0.5rem 1.5rem rgb(80, 160, 80);
   display: flex;
   align-items: center;
   justify-content: space-between;
   background: #ffffff;
 }
-.header .logo {
-  font-size: 2.5rem;
-  color: rgb(0, 0, 0);
+
+.img-logo {
+  max-width: 80px;
 }
+
 .header .navbar a {
   font-size: 1.7rem;
   color: #30df15;
   margin-left: 2rem;
 }
 .header .navbar a:hover {
-  color: #0d6b1c;
+  color: #9d190b;
 }
 
 /* Home */
@@ -49,13 +52,13 @@ section {
   align-items: center;
   flex-wrap: wrap;
   gap: 1.5rem;
-  padding-top: 5rem;
+  padding-top: 3rem;
 }
 .home .image {
   flex: 1 1 45rem;
 }
 .home .image img {
-  width: 100%;
+  width: 500px;
 }
 .home .content {
   flex: 1 1 45rem;
@@ -77,28 +80,73 @@ section {
   color: #fff;
   border: none;
   cursor: pointer;
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: 0.3s;
 }
 
 .btn:hover {
   transform: scale(1.1);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  
 }
 
-.login{
+.login {
   display: inline-block;
   padding: 5px 20px;
   margin-left: 10px;
   font-size: 15px;
-  background-color: #7be47e;
+  background-color: #2dcb35;
   border-radius: 20px;
-  font-weight: 600;
-  color:  #f3fff3; 
+  font-weight: 500;
+  color: #000000;
   border: none;
   cursor: pointer;
   transition: transform 0.3s, box-shadow 0.3s;
 }
 .login:hover {
   transform: scale(1.1);
-  box-shadow: 0 0 10px rgba(18, 157, 60, 0.3);
+}
+
+/* Footer */
+.container-footer {
+  flex-wrap: wrap;
+  background-color: #30df15;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lista-footer {
+  flex: 1;
+  justify-content: center;
+  display: flex;
+}
+.lista-footer ul li {
+  font-size: 20px;
+}
+
+.image-footer {
+  flex: 1;
+  max-width: 50%;
+  margin-left: 10%;
+}
+.img-footer {
+  width: 300px;
+  height: auto;
+  display: block;
+}
+.text-footer {
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  background-color: #30df15;
+}
+
+/* Responsividade  */
+
+@media (max-width: 768px) {
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+}
+
+@media (min-width: 1025px) {
 }
