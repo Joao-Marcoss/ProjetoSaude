@@ -57,18 +57,7 @@ section {
   line-height: 20px;
 }
 
-.btn-ler {
-  font-size: 14px;
-  margin-top: 12px;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.btn-ler:hover {
-  color: #000000;
-}
 .text-saude {
   margin-top: 2px;
   text-align: center;
@@ -92,4 +81,10 @@ section {
   
   color: #37942c;
 
+}
+@media (max-width: 768px) {
+ 
+  .blog-button {
+    font-size: 14px;
+  }
 }

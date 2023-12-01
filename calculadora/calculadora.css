@@ -52,7 +52,7 @@ body {
 }
 #text {
   text-align: center;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .media {
@@ -146,7 +146,7 @@ input::placeholder {
   #resultado{
    max-width:  100%;
   }
+  .blog-button {
+    font-size: 14px;
 }
-
-@media screen and (max-width: 1024px) {
 }

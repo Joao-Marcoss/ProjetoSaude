@@ -11,6 +11,10 @@ html {
   box-sizing: border-box;
   text-decoration: none;
 }
+body {
+  background-color: rgba(250, 250, 250, 0.878);
+  
+}
 
 section {
   padding: 2rem 10%;
@@ -28,7 +32,7 @@ section {
   height: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
-  background-color: rgba(250, 250, 250, 0.878);
+
   gap: 20px;
 }
 
@@ -63,6 +67,14 @@ section {
   transform: scale(1.1);
   margin-bottom: 30px;
 }
+.text-descricao {
+  font-family: 'Popins';
+  margin-left: 80px;
+  margin-top: 10px;
+  font-size: 18px;
+ line-height: 2.5rem;
+ margin-right: 10px;
+}
 
 .blog-button {
   display: flex;
@@ -79,7 +91,14 @@ section {
   color: #37942c;
 }
 @media (max-width: 768px) {
-  .blog-button{
+  .text-blog {
+    text-align: center;
+  }
+  .text-descricao {
+    margin-left: 0;
+    text-align: center;
+  }
+  .blog-button {
     font-size: 14px;
   }
 }
