@@ -7,6 +7,8 @@ https://youtu.be/ynRcnMeJgeM
 
 Link adicional para possível melhoria do projeto com integração ao back-end (em desenvolvimento):
 
+https://youtu.be/-8AH3kw1daI
+
 
 João Marcos Da Silva 1     
 Camila Cinque do Nascimento 2  
